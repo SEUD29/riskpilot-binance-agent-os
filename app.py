@@ -56,4 +56,3 @@ def evaluate(payload: dict):
     if market_error:
         response["market_error"] = "Live demo market data could not be fetched."
     return response
-"""
